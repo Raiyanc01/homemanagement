@@ -221,7 +221,7 @@ void room_edit()
                    &ren.no, &ren.level, &ren.room_no,
                    ren.name, ren.status, &ren.rent) == 6)
         {
-
+//THIS PROGRAM IS MADE BY RAIYAN CHOUDHURY AND COPYRIGHT 2025
             if (ren.no == op)
             {
                 fprintf(fp, "%d,%d,%d,%s,%s,%d\n",
@@ -251,7 +251,7 @@ void usr_login()
     char user[13];
     char pw[8];
     char buff[100];
-
+//THIS PROGRAM IS MADE BY RAIYAN CHOUDHURY AND COPYRIGHT 2025
     struct usr
     {
         char usrn[13];
@@ -294,7 +294,7 @@ void usr_login()
     printf("\n");
 
 
-
+//THIS PROGRAM IS MADE BY RAIYAN CHOUDHURY AND COPYRIGHT 2025
 // Admin user=admin and password=admin42
 
 
@@ -342,7 +342,7 @@ void usr_login()
     if (!found){
         system("cls");
         printf("\n***Username not found!***\n");
-
+//THIS PROGRAM IS MADE BY RAIYAN CHOUDHURY AND COPYRIGHT 2025
         main();}
 }
 
@@ -368,7 +368,7 @@ void room_add()
 
         fclose(fptr);
     }
-
+//THIS PROGRAM IS MADE BY RAIYAN CHOUDHURY AND COPYRIGHT 2025
     fptr=fopen("roomlist.csv","a+");
     ren.no=count+1;
     printf("\t...Add Room...\n");
@@ -400,7 +400,7 @@ void room_delete()
     int op;
     printf("Enter Serial No to Delete Room: ");
     scanf("%d",&op);
-
+//THIS PROGRAM IS MADE BY RAIYAN CHOUDHURY AND COPYRIGHT 2025
 
     FILE*fptr,*fr;
     fptr=fopen("roomlist.csv","r");
@@ -462,7 +462,7 @@ void admin_panel()
 switch(op){
 
     case 1:
-
+//THIS PROGRAM IS MADE BY RAIYAN CHOUDHURY AND COPYRIGHT 2025
         system("cls");
         strcmp(current_user,"ADMIN");
         title();
@@ -555,7 +555,7 @@ if (founduser==0){
         strcpy(current_user,"LOGIN REQURED");
         main();
         break;
-
+//THIS PROGRAM IS MADE BY RAIYAN CHOUDHURY AND COPYRIGHT 2025
 
     default:
         system("cls");
@@ -563,3 +563,5 @@ if (founduser==0){
         main();
 
 }}
+
+//THIS PROGRAM IS MADE BY RAIYAN CHOUDHURY AND COPYRIGHT 2025
